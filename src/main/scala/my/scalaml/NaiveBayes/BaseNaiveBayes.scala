@@ -6,13 +6,6 @@ import breeze.numerics.exp
 
 trait BaseNaiveBayes {
 
-  //def printHi = println("Hi")
-  //var classes = DenseVector[Double]()
-  //var target = DenseVector[Double]()
-  //var
-
-  //def getClasses: DenseVector[Int]
-
   var classes: Array[Int] = Array[Int]()
   var nClasses: Int = 0
 

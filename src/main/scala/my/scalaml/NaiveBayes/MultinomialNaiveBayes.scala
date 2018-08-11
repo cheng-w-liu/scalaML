@@ -24,25 +24,3 @@ class MultinomialNaiveBayes(val alphaValue: Double) extends BaseDiscreteNaiveBay
     ll(*, ::) + classLogProb
   }
 }
-
-/*
-class MultinomialNaiveBayes extends BaseNaiveBayes {
-
-  var classes = Array[Int]()
-  var target = DenseVector[Double]()
-  var features = DenseMatrix((0.0))
-
-
-  override def getClasses = DenseVector(0, 1)
-
-  override def logLikelihood(X: DenseMatrix[Double]) = {
-
-    DenseMatrix((1.0, 2.0), (3.0, 4.0))
-
-    //val ll = 1.0
-    //println("Inside logLikelihood")
-    //ll
-  }
-
-}
-*/
