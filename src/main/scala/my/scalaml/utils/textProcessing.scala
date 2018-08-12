@@ -57,7 +57,5 @@ object textProcessing {
     val dataMatrix = DenseMatrix(buff.map(_.toArray):_*)
     dataMatrix
   }
-
-
-
+  
 }
